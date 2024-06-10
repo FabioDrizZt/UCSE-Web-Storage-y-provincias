@@ -1,3 +1,19 @@
-body{
-    background: #09f;
+body {
+  background: #f0f0f0;
+}
+
+#grid-provincias {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.grid-item {
+  background: #09f;
+  color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
 }
